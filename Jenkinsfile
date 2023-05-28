@@ -1,6 +1,4 @@
-pipeline{
-    agent any
-    environment
+node{
     stages{
         stage("test1"){
             steps{
